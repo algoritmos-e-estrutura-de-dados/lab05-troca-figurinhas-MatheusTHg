@@ -25,5 +25,5 @@ def maximizar_troca_de_figurinhas(Maria, Joao, A, B):
 if __name__ == '__main__':
     A, B = input().split(' ')
     figurinhas_da_maria = input().split(' ')
-    figurinhas_do_joao = input().split(' ')
+    figurinhas_da_joao = input().split(' ')
     maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_da_joao, A, B)
